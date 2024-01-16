@@ -3,6 +3,7 @@
 window.scroll = function () {
     const header = document.querySelector('header');
     const fixedNav = header.offsetTop;
+    const backtop = document.querySelector('backtop');
 
     if (window.scrollY > fixedNav){
         header.classList.add('navbar-fixed');
